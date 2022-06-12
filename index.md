@@ -1,37 +1,114 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <title>Best Online food Delivery Service In India | Mr.RPonlineMeals.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="phone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&family=Tiro+Devanagari+Sanskrit:ital@1&display=swap" rel="stylesheet">
 
-You can use the [editor on GitHub](https://github.com/Rohitpopalghat/ROPO.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo.jpg" alt="MyOnlineMeals.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to Mr.RPonlineMeal</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <p>Lorem ipsum dolor sit amet consectetur. </p>
+        <button class="btn">Order Now</button>
+    </section>
 
-### Markdown
+    <section id ="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="pizza_girl.png" alt="">
+                <h2 class="h-secondary center">Food Catering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Consectetur tempora doloremque nemo quaerat animi eveniet. 
+                     Earum beatae, id officia sunt voluptate eaque corrupti maxime quidem 
+                     reiciendis facilis cumque nesciunt consectetur nisi natus odio ullam.</p>
+            </div>
+            <div class="box">
+                <img src="burger.jpg" alt="">
+                <h2 class="h-secondary center">Bulk Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Consectetur tempora doloremque nemo quaerat animi eveniet. 
+                     Earum beatae, id officia sunt voluptate eaque corrupti maxime quidem 
+                     reiciendis facilis cumque nesciunt consectetur nisi natus odio ullam.</p>
+            </div>
+            <div class="box">
+                <img src="deliveryboy.png" alt="">
+                <h2 class="h-secondary center">Food Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Consectetur tempora doloremque nemo quaerat animi eveniet. 
+                     Earum beatae, id officia sunt voluptate eaque corrupti maxime quidem 
+                     reiciendis facilis cumque nesciunt consectetur nisi natus odio ullam.</p>
+            </div>
+        </div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="starbuckslogo.png" alt="Our client">
 
-# Header 1
-## Header 2
-### Header 3
+            </div>
+            <div class="client-item">
+                <img src="KFClogo.png" alt="Our client">
 
-- Bulleted
-- List
+            </div>
+            <div class="client-item">
+                <img src="subwaylogo.png" alt="Our client">
 
-1. Numbered
-2. List
+            </div>
+            <div class="client-item">
+                <img src="pizzahut.png" alt="Our client">
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Rohitpopalghat/ROPO.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="name" id="email" placeholder="Enter your Email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number </label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy; www.Mr.RPonlineMeals.com. All Rights Reserved!
+        </div>
+    </footer>
+</body>
+</html>
